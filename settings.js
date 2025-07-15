@@ -9,32 +9,32 @@ const chalk = require('chalk')
 require('dotenv').config()
 
 //contact details - sensitive info moved to .env
-global.SESSION_ID = process.env.SESSION_ID || "" //fallback to default if not in .env
-global.ownernomer = process.env.OWNER_NUMBER || "255614195217"
+global.SESSION_ID = process.env.SESSION_ID || "HansTz&PpwS3S5I#G8N5oJrwRae22gjUADWI7sq4jjZ7t_ijVkIbBlDAc1E" //fallback to default if not in .env
+global.ownernomer = process.env.OWNER_NUMBER || "254112674019"
 
-global.ownername = process.env.OWNER_NAME || "HansTech"
+global.ownername = process.env.OWNER_NAME || "BEN"
 
-global.ytname = "HANSTZ-TECH"
+global.ytname = "BEN-TECH"
 
-global.socialm = "GitHub: Mrhanstz"
+global.socialm = "GitHub: benngugi"
 
-global.location = "AFRICA, TANZANIA, DODOMA"
+global.location = "AFRICA, KENYA, NAIROBI"
 
-global.ownernumber = process.env.OWNER_NUMBER || '255614195217'  //Owner number
+global.ownernumber = process.env.OWNER_NUMBER || '254112674019'  //Owner number
 
-global.ownername = process.env.OWNER_NAME || 'HANSTZ' //owner name
+global.ownername = process.env.OWNER_NAME || 'BEN' //owner name
 global.botname = 'HANS-XMD' //name of the bot
 
 //sticker details
 global.packname = 'Sticker By'
-global.author = 'HANS-XMD'
+global.author = 'BEN-XMD'
 
 //console view/theme
 global.themeemoji = '⚠️'
-global.wm = "HANS BOT"
+global.wm = "BEN BOT"
 
 //theme link
-global.link = 'https://whatsapp.com/channel/0029VasiOoR3bbUw5aV4qB31'
+global.link = 'https://chat.whatsapp.com/I5mGyByCpEz4IvAOT0wQM6'
 
 //custom prefix
 global.prefa = ['','!','.','#','/']
@@ -42,18 +42,18 @@ global.prefa = ['','!','.','#','/']
 
 //bot settings
 global.autolikestatus = true //For auto react Status Random
-global.autoRecording = false //auto recording
+global.autoRecording = true //auto recording
 global.autoTyping = false //auto typing
 global.autorecordtype = true //auto typing + recording
 global.autoread = false //auto read messages
-global.autobio = true //auto update bio
+global.autobio = false //auto update bio
 global.anti91 = false //auto block +91 
 global.autoswview = true //auto view status/story
-global.autoreact = false // This is For Auto React 
+global.autoreact = true // This is For Auto React 
 global.welcome = false // For Welcome massage groups
 
 
-global.wagc = "https://whatsapp.com/channel/0029VasiOoR3bbUw5aV4qB31";
+global.wagc = "https://chat.whatsapp.com/I5mGyByCpEz4IvAOT0wQM6";
 
 //reply messages
 global.mess = {
